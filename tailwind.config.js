@@ -82,6 +82,40 @@ module.exports = {
         "lavender-dark": "#6B5B8E",
         "lavender-light": "#F7F3FC",
         "lavender-beige": "#E5D9F2",
+
+        // Paleta Tropical (Alto Contraste - Imagen)
+        "tropical-primary": "#1F6357",
+        "tropical-secondary": "#4DB8A8",
+        "tropical-accent": "#F4E9CD",
+        "tropical-dark": "#0D3D34",
+        "tropical-light": "#E8F5F3",
+        "tropical-beige": "#D4C5A0",
+        "tropical-yellow": "#F4C430",
+        "tropical-orange": "#F39C12",
+
+        // Paleta Neon (Alto Contraste)
+        "neon-primary": "#FF00FF",
+        "neon-secondary": "#00FFFF",
+        "neon-accent": "#FFFF00",
+        "neon-dark": "#000000",
+        "neon-light": "#FFFFFF",
+        "neon-beige": "#333333",
+
+        // Paleta Fire (Fuego - Alto Contraste)
+        "fire-primary": "#FF4500",
+        "fire-secondary": "#FFD700",
+        "fire-accent": "#FF6347",
+        "fire-dark": "#8B0000",
+        "fire-light": "#FFF8DC",
+        "fire-beige": "#FFE4B5",
+
+        // Paleta Electric (Eléctrica - Alto Contraste)
+        "electric-primary": "#00D9FF",
+        "electric-secondary": "#FF0080",
+        "electric-accent": "#FFFF00",
+        "electric-dark": "#0A0E27",
+        "electric-light": "#F0F8FF",
+        "electric-beige": "#B0E0E6",
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "-apple-system", "sans-serif"],

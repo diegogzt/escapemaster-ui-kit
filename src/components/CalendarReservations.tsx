@@ -8,7 +8,7 @@ interface Reservation {
 }
 
 interface CalendarReservationsProps {
-  palette?: "warm" | "cool" | "contrast" | "monochrome" | "sunset" | "nature" | "ocean" | "lavender";
+  palette?: "warm" | "cool" | "contrast" | "monochrome" | "sunset" | "nature" | "ocean" | "lavender" | "tropical" | "neon" | "fire" | "electric";
 }
 
 const CalendarReservations = ({ palette = "warm" }: CalendarReservationsProps) => {
@@ -71,6 +71,34 @@ const CalendarReservations = ({ palette = "warm" }: CalendarReservationsProps) =
       accent: "#E8DFF5",
       highlight: "#D4C5E0",
       dark: "#6B5B8E",
+    },
+    tropical: {
+      primary: "#1F6357",
+      secondary: "#4DB8A8",
+      accent: "#F4E9CD",
+      highlight: "#F4C430",
+      dark: "#F39C12",
+    },
+    neon: {
+      primary: "#FF00FF",
+      secondary: "#00FFFF",
+      accent: "#FFFF00",
+      highlight: "#00FF00",
+      dark: "#FF0080",
+    },
+    fire: {
+      primary: "#FF4500",
+      secondary: "#FFD700",
+      accent: "#FF6347",
+      highlight: "#FFA500",
+      dark: "#8B0000",
+    },
+    electric: {
+      primary: "#00D9FF",
+      secondary: "#FF0080",
+      accent: "#FFFF00",
+      highlight: "#00FF7F",
+      dark: "#8A2BE2",
     },
   };
 

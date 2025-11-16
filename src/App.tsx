@@ -1412,6 +1412,419 @@ function App() {
             </div>
           </div>
         </section>
+
+        {/* PALETA TROPICAL (ALTO CONTRASTE) */}
+        <section className="mb-16 pb-12 border-b-2 border-tropical-beige">
+          <div className="bg-tropical-light rounded-lg px-4 py-2 mb-6 inline-block">
+            <h2 className="text-4xl font-bold text-tropical-dark">🌴 Paleta Tropical</h2>
+          </div>
+
+          {/* Calendar with Reservations */}
+          <div className="mb-12">
+            <h3 className="text-heading-2 text-tropical-primary font-bold mb-6">
+              Calendario con Reservas
+            </h3>
+            <div className="bg-white border-2 border-tropical-beige rounded-xl p-8">
+              <CalendarReservations palette="tropical" />
+            </div>
+          </div>
+
+          {/* Buttons */}
+          <div className="mb-8">
+            <h3 className="text-heading-3 text-tropical-primary font-bold mb-4">Botones</h3>
+            <div className="bg-white border-2 border-tropical-beige rounded-xl p-8 flex flex-wrap gap-4">
+              <button className="px-6 py-3 bg-tropical-primary text-white rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Primario
+              </button>
+              <button className="px-6 py-3 bg-tropical-secondary text-white rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Secundario
+              </button>
+              <button className="px-6 py-3 bg-tropical-yellow text-tropical-dark rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Amarillo
+              </button>
+              <button className="px-6 py-3 bg-tropical-orange text-white rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Naranja
+              </button>
+              <button className="px-6 py-3 border-2 border-tropical-primary text-tropical-primary rounded-lg font-semibold hover:bg-tropical-light transition-colors">
+                Outline
+              </button>
+            </div>
+          </div>
+
+          {/* Cards */}
+          <div className="mb-8">
+            <h3 className="text-heading-3 text-tropical-primary font-bold mb-4">Tarjetas</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-white border-2 border-tropical-beige rounded-xl p-6 shadow-sm">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-tropical-primary text-white text-sm font-semibold rounded-full">
+                    Nuevo
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold text-tropical-dark mb-2">Reserva Express</h4>
+                <p className="text-gray-700 mb-4">
+                  Gestiona tus reservas de forma rápida y sencilla.
+                </p>
+                <button className="w-full px-4 py-2 bg-tropical-secondary text-white rounded-lg font-semibold hover:opacity-90">
+                  Ver más
+                </button>
+              </div>
+              <div className="bg-white border-2 border-tropical-beige rounded-xl p-6 shadow-sm">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-tropical-yellow text-tropical-dark text-sm font-semibold rounded-full">
+                    Popular
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold text-tropical-dark mb-2">Eventos Especiales</h4>
+                <p className="text-gray-700 mb-4">
+                  Organiza eventos únicos con herramientas avanzadas.
+                </p>
+                <button className="w-full px-4 py-2 bg-tropical-primary text-white rounded-lg font-semibold hover:opacity-90">
+                  Explorar
+                </button>
+              </div>
+              <div className="bg-white border-2 border-tropical-beige rounded-xl p-6 shadow-sm">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-tropical-orange text-white text-sm font-semibold rounded-full">
+                    Premium
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold text-tropical-dark mb-2">Analytics Pro</h4>
+                <p className="text-gray-700 mb-4">
+                  Analiza el rendimiento de tus reservas en tiempo real.
+                </p>
+                <button className="w-full px-4 py-2 bg-tropical-accent text-tropical-dark rounded-lg font-semibold hover:opacity-90">
+                  Activar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Alerts */}
+          <div className="mb-8">
+            <h3 className="text-heading-3 text-tropical-primary font-bold mb-4">Alertas</h3>
+            <div className="bg-white border-2 border-tropical-beige rounded-xl p-8 space-y-4">
+              <div className="bg-tropical-light border-l-4 border-tropical-primary p-4 rounded">
+                <p className="text-tropical-dark font-semibold">✓ Reserva confirmada exitosamente</p>
+              </div>
+              <div className="bg-tropical-yellow border-l-4 border-tropical-yellow p-4 rounded">
+                <p className="text-tropical-dark font-semibold">⚠ Verifica los datos de contacto</p>
+              </div>
+              <div className="bg-tropical-accent border-l-4 border-tropical-secondary p-4 rounded">
+                <p className="text-tropical-dark font-semibold">ℹ Nueva actualización disponible</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* PALETA NEON (ALTO CONTRASTE) */}
+        <section className="mb-16 pb-12 border-b-2 border-neon-beige bg-neon-dark">
+          <div className="bg-black rounded-lg px-4 py-2 mb-6 inline-block border-2 border-neon-primary">
+            <h2 className="text-4xl font-bold text-neon-primary">⚡ Paleta Neon</h2>
+          </div>
+
+          {/* Calendar with Reservations */}
+          <div className="mb-12">
+            <h3 className="text-heading-2 text-neon-accent font-bold mb-6">
+              Calendario con Reservas
+            </h3>
+            <div className="bg-black border-2 border-neon-secondary rounded-xl p-8">
+              <CalendarReservations palette="neon" />
+            </div>
+          </div>
+
+          {/* Buttons */}
+          <div className="mb-8">
+            <h3 className="text-heading-3 text-neon-secondary font-bold mb-4">Botones</h3>
+            <div className="bg-black border-2 border-neon-primary rounded-xl p-8 flex flex-wrap gap-4">
+              <button className="px-6 py-3 bg-neon-primary text-black rounded-lg font-bold hover:opacity-80 transition-opacity shadow-lg shadow-neon-primary/50">
+                Magenta
+              </button>
+              <button className="px-6 py-3 bg-neon-secondary text-black rounded-lg font-bold hover:opacity-80 transition-opacity shadow-lg shadow-neon-secondary/50">
+                Cyan
+              </button>
+              <button className="px-6 py-3 bg-neon-accent text-black rounded-lg font-bold hover:opacity-80 transition-opacity shadow-lg shadow-neon-accent/50">
+                Amarillo
+              </button>
+              <button className="px-6 py-3 border-2 border-neon-primary text-neon-primary rounded-lg font-bold hover:bg-neon-primary hover:text-black transition-all shadow-lg shadow-neon-primary/30">
+                Outline
+              </button>
+            </div>
+          </div>
+
+          {/* Cards */}
+          <div className="mb-8">
+            <h3 className="text-heading-3 text-neon-accent font-bold mb-4">Tarjetas</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-black border-2 border-neon-primary rounded-xl p-6 shadow-lg shadow-neon-primary/30">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-neon-primary text-black text-sm font-bold rounded-full">
+                    Nuevo
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold text-neon-primary mb-2">Reserva Express</h4>
+                <p className="text-gray-300 mb-4">
+                  Gestiona tus reservas de forma rápida y sencilla.
+                </p>
+                <button className="w-full px-4 py-2 bg-neon-secondary text-black rounded-lg font-bold hover:opacity-80">
+                  Ver más
+                </button>
+              </div>
+              <div className="bg-black border-2 border-neon-secondary rounded-xl p-6 shadow-lg shadow-neon-secondary/30">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-neon-accent text-black text-sm font-bold rounded-full">
+                    Popular
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold text-neon-secondary mb-2">Eventos Especiales</h4>
+                <p className="text-gray-300 mb-4">
+                  Organiza eventos únicos con herramientas avanzadas.
+                </p>
+                <button className="w-full px-4 py-2 bg-neon-primary text-black rounded-lg font-bold hover:opacity-80">
+                  Explorar
+                </button>
+              </div>
+              <div className="bg-black border-2 border-neon-accent rounded-xl p-6 shadow-lg shadow-neon-accent/30">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-neon-secondary text-black text-sm font-bold rounded-full">
+                    Premium
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold text-neon-accent mb-2">Analytics Pro</h4>
+                <p className="text-gray-300 mb-4">
+                  Analiza el rendimiento de tus reservas en tiempo real.
+                </p>
+                <button className="w-full px-4 py-2 bg-neon-accent text-black rounded-lg font-bold hover:opacity-80">
+                  Activar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Alerts */}
+          <div className="mb-8">
+            <h3 className="text-heading-3 text-neon-primary font-bold mb-4">Alertas</h3>
+            <div className="bg-black border-2 border-neon-accent rounded-xl p-8 space-y-4">
+              <div className="bg-neon-dark border-l-4 border-neon-primary p-4 rounded shadow-lg shadow-neon-primary/20">
+                <p className="text-neon-primary font-bold">✓ Reserva confirmada exitosamente</p>
+              </div>
+              <div className="bg-neon-dark border-l-4 border-neon-secondary p-4 rounded shadow-lg shadow-neon-secondary/20">
+                <p className="text-neon-secondary font-bold">⚠ Verifica los datos de contacto</p>
+              </div>
+              <div className="bg-neon-dark border-l-4 border-neon-accent p-4 rounded shadow-lg shadow-neon-accent/20">
+                <p className="text-neon-accent font-bold">ℹ Nueva actualización disponible</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* PALETA FIRE (FUEGO - ALTO CONTRASTE) */}
+        <section className="mb-16 pb-12 border-b-2 border-fire-beige">
+          <div className="bg-fire-light rounded-lg px-4 py-2 mb-6 inline-block">
+            <h2 className="text-4xl font-bold text-fire-dark">🔥 Paleta Fire</h2>
+          </div>
+
+          {/* Calendar with Reservations */}
+          <div className="mb-12">
+            <h3 className="text-heading-2 text-fire-primary font-bold mb-6">
+              Calendario con Reservas
+            </h3>
+            <div className="bg-white border-2 border-fire-beige rounded-xl p-8">
+              <CalendarReservations palette="fire" />
+            </div>
+          </div>
+
+          {/* Buttons */}
+          <div className="mb-8">
+            <h3 className="text-heading-3 text-fire-primary font-bold mb-4">Botones</h3>
+            <div className="bg-white border-2 border-fire-beige rounded-xl p-8 flex flex-wrap gap-4">
+              <button className="px-6 py-3 bg-fire-primary text-white rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Naranja Rojo
+              </button>
+              <button className="px-6 py-3 bg-fire-secondary text-fire-dark rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Dorado
+              </button>
+              <button className="px-6 py-3 bg-fire-accent text-white rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Tomate
+              </button>
+              <button className="px-6 py-3 bg-fire-dark text-white rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Rojo Oscuro
+              </button>
+              <button className="px-6 py-3 border-2 border-fire-primary text-fire-primary rounded-lg font-semibold hover:bg-fire-light transition-colors">
+                Outline
+              </button>
+            </div>
+          </div>
+
+          {/* Cards */}
+          <div className="mb-8">
+            <h3 className="text-heading-3 text-fire-primary font-bold mb-4">Tarjetas</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-white border-2 border-fire-beige rounded-xl p-6 shadow-sm">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-fire-primary text-white text-sm font-semibold rounded-full">
+                    Nuevo
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold text-fire-dark mb-2">Reserva Express</h4>
+                <p className="text-gray-700 mb-4">
+                  Gestiona tus reservas de forma rápida y sencilla.
+                </p>
+                <button className="w-full px-4 py-2 bg-fire-secondary text-fire-dark rounded-lg font-semibold hover:opacity-90">
+                  Ver más
+                </button>
+              </div>
+              <div className="bg-white border-2 border-fire-beige rounded-xl p-6 shadow-sm">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-fire-accent text-white text-sm font-semibold rounded-full">
+                    Popular
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold text-fire-dark mb-2">Eventos Especiales</h4>
+                <p className="text-gray-700 mb-4">
+                  Organiza eventos únicos con herramientas avanzadas.
+                </p>
+                <button className="w-full px-4 py-2 bg-fire-primary text-white rounded-lg font-semibold hover:opacity-90">
+                  Explorar
+                </button>
+              </div>
+              <div className="bg-white border-2 border-fire-beige rounded-xl p-6 shadow-sm">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-fire-dark text-white text-sm font-semibold rounded-full">
+                    Premium
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold text-fire-dark mb-2">Analytics Pro</h4>
+                <p className="text-gray-700 mb-4">
+                  Analiza el rendimiento de tus reservas en tiempo real.
+                </p>
+                <button className="w-full px-4 py-2 bg-fire-secondary text-fire-dark rounded-lg font-semibold hover:opacity-90">
+                  Activar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Alerts */}
+          <div className="mb-8">
+            <h3 className="text-heading-3 text-fire-primary font-bold mb-4">Alertas</h3>
+            <div className="bg-white border-2 border-fire-beige rounded-xl p-8 space-y-4">
+              <div className="bg-fire-light border-l-4 border-fire-primary p-4 rounded">
+                <p className="text-fire-dark font-semibold">✓ Reserva confirmada exitosamente</p>
+              </div>
+              <div className="bg-fire-secondary bg-opacity-20 border-l-4 border-fire-secondary p-4 rounded">
+                <p className="text-fire-dark font-semibold">⚠ Verifica los datos de contacto</p>
+              </div>
+              <div className="bg-fire-accent bg-opacity-20 border-l-4 border-fire-accent p-4 rounded">
+                <p className="text-fire-dark font-semibold">ℹ Nueva actualización disponible</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* PALETA ELECTRIC (ELÉCTRICA - ALTO CONTRASTE) */}
+        <section className="pb-12">
+          <div className="bg-electric-light rounded-lg px-4 py-2 mb-6 inline-block border-2 border-electric-primary">
+            <h2 className="text-4xl font-bold text-electric-dark">⚡ Paleta Electric</h2>
+          </div>
+
+          {/* Calendar with Reservations */}
+          <div className="mb-12">
+            <h3 className="text-heading-2 text-electric-primary font-bold mb-6">
+              Calendario con Reservas
+            </h3>
+            <div className="bg-white border-2 border-electric-beige rounded-xl p-8">
+              <CalendarReservations palette="electric" />
+            </div>
+          </div>
+
+          {/* Buttons */}
+          <div className="mb-8">
+            <h3 className="text-heading-3 text-electric-primary font-bold mb-4">Botones</h3>
+            <div className="bg-white border-2 border-electric-beige rounded-xl p-8 flex flex-wrap gap-4">
+              <button className="px-6 py-3 bg-electric-primary text-black rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Cyan Brillante
+              </button>
+              <button className="px-6 py-3 bg-electric-secondary text-white rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Rosa Neón
+              </button>
+              <button className="px-6 py-3 bg-electric-accent text-black rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Amarillo Eléctrico
+              </button>
+              <button className="px-6 py-3 bg-electric-dark text-white rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Azul Oscuro
+              </button>
+              <button className="px-6 py-3 border-2 border-electric-primary text-electric-primary rounded-lg font-semibold hover:bg-electric-light transition-colors">
+                Outline
+              </button>
+            </div>
+          </div>
+
+          {/* Cards */}
+          <div className="mb-8">
+            <h3 className="text-heading-3 text-electric-primary font-bold mb-4">Tarjetas</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-white border-2 border-electric-beige rounded-xl p-6 shadow-sm">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-electric-primary text-black text-sm font-semibold rounded-full">
+                    Nuevo
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold text-electric-dark mb-2">Reserva Express</h4>
+                <p className="text-gray-700 mb-4">
+                  Gestiona tus reservas de forma rápida y sencilla.
+                </p>
+                <button className="w-full px-4 py-2 bg-electric-secondary text-white rounded-lg font-semibold hover:opacity-90">
+                  Ver más
+                </button>
+              </div>
+              <div className="bg-white border-2 border-electric-beige rounded-xl p-6 shadow-sm">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-electric-accent text-black text-sm font-semibold rounded-full">
+                    Popular
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold text-electric-dark mb-2">Eventos Especiales</h4>
+                <p className="text-gray-700 mb-4">
+                  Organiza eventos únicos con herramientas avanzadas.
+                </p>
+                <button className="w-full px-4 py-2 bg-electric-primary text-black rounded-lg font-semibold hover:opacity-90">
+                  Explorar
+                </button>
+              </div>
+              <div className="bg-white border-2 border-electric-beige rounded-xl p-6 shadow-sm">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-electric-dark text-white text-sm font-semibold rounded-full">
+                    Premium
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold text-electric-dark mb-2">Analytics Pro</h4>
+                <p className="text-gray-700 mb-4">
+                  Analiza el rendimiento de tus reservas en tiempo real.
+                </p>
+                <button className="w-full px-4 py-2 bg-electric-accent text-black rounded-lg font-semibold hover:opacity-90">
+                  Activar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Alerts */}
+          <div className="mb-8">
+            <h3 className="text-heading-3 text-electric-primary font-bold mb-4">Alertas</h3>
+            <div className="bg-white border-2 border-electric-beige rounded-xl p-8 space-y-4">
+              <div className="bg-electric-light border-l-4 border-electric-primary p-4 rounded">
+                <p className="text-electric-dark font-semibold">✓ Reserva confirmada exitosamente</p>
+              </div>
+              <div className="bg-electric-secondary bg-opacity-20 border-l-4 border-electric-secondary p-4 rounded">
+                <p className="text-electric-dark font-semibold">⚠ Verifica los datos de contacto</p>
+              </div>
+              <div className="bg-electric-accent bg-opacity-20 border-l-4 border-electric-accent p-4 rounded">
+                <p className="text-electric-dark font-semibold">ℹ Nueva actualización disponible</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
