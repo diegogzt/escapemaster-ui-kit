@@ -1,9 +1,17 @@
 {
-  "name": "flhour-ui-kit",
+  "name": "flowy-ui-kit",
   "version": "1.0.0",
-  "description": "UI Kit components para el gestor de reservas Flhour",
+  "description": "Un completo sistema de componentes UI construido con React, TypeScript y Tailwind CSS",
   "type": "module",
   "main": "src/components/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diegogzt/flowy-ui-kit.git"
+  },
+  "homepage": "https://diegogzt.github.io/flowy-ui-kit/",
+  "bugs": {
+    "url": "https://github.com/diegogzt/flowy-ui-kit/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -13,7 +21,11 @@
     "ui-kit",
     "components",
     "react",
-    "typescript"
+    "typescript",
+    "tailwindcss",
+    "calendar",
+    "forms",
+    "buttons"
   ],
   "author": "Diego Tovar",
   "license": "MIT",
