@@ -8,12 +8,30 @@ interface Reservation {
 }
 
 interface CalendarReservationsProps {
-  palette?: "warm" | "cool" | "contrast" | "monochrome" | "sunset" | "nature" | "ocean" | "lavender" | "tropical" | "neon" | "fire" | "electric" | "mint" | "purple" | "meadow" | "twilight";
+  palette?:
+    | "warm"
+    | "cool"
+    | "contrast"
+    | "monochrome"
+    | "sunset"
+    | "nature"
+    | "ocean"
+    | "lavender"
+    | "tropical"
+    | "neon"
+    | "fire"
+    | "electric"
+    | "mint"
+    | "purple"
+    | "meadow"
+    | "twilight";
 }
 
-const CalendarReservations = ({ palette = "warm" }: CalendarReservationsProps) => {
+const CalendarReservations = ({
+  palette = "warm",
+}: CalendarReservationsProps) => {
   const [currentDate] = useState(new Date(2025, 10, 1)); // Noviembre 2025
-  
+
   // Colores según la paleta
   const paletteColors = {
     warm: {
@@ -142,62 +160,212 @@ const CalendarReservations = ({ palette = "warm" }: CalendarReservationsProps) =
     2: [
       { id: "4", title: "Alice", time: "11:15", color: colors.primary },
       { id: "5", title: "Randalls Party", time: "14:15", color: colors.accent },
-      { id: "6", title: "El Invernadero", time: "18:00", color: colors.secondary },
+      {
+        id: "6",
+        title: "El Invernadero",
+        time: "18:00",
+        color: colors.secondary,
+      },
       { id: "7", title: "Alice", time: "17:45", color: colors.primary },
       { id: "8", title: "Randalls Party", time: "19:45", color: colors.accent },
-      { id: "9", title: "El Invernadero", time: "19:00", color: colors.secondary },
-      { id: "10", title: "Randalls Party", time: "20:15", color: colors.accent },
+      {
+        id: "9",
+        title: "El Invernadero",
+        time: "19:00",
+        color: colors.secondary,
+      },
+      {
+        id: "10",
+        title: "Randalls Party",
+        time: "20:15",
+        color: colors.accent,
+      },
     ],
     7: [
       { id: "11", title: "Alice", time: "13:00", color: colors.primary },
-      { id: "12", title: "El Invernadero", time: "18:00", color: colors.secondary },
-      { id: "13", title: "Randalls Party", time: "19:30", color: colors.accent },
+      {
+        id: "12",
+        title: "El Invernadero",
+        time: "18:00",
+        color: colors.secondary,
+      },
+      {
+        id: "13",
+        title: "Randalls Party",
+        time: "19:30",
+        color: colors.accent,
+      },
     ],
     8: [
-      { id: "14", title: "El Invernadero", time: "16:00", color: colors.secondary },
-      { id: "15", title: "Randalls Party", time: "18:15", color: colors.accent },
-      { id: "16", title: "El Invernadero", time: "20:00", color: colors.secondary },
+      {
+        id: "14",
+        title: "El Invernadero",
+        time: "16:00",
+        color: colors.secondary,
+      },
+      {
+        id: "15",
+        title: "Randalls Party",
+        time: "18:15",
+        color: colors.accent,
+      },
+      {
+        id: "16",
+        title: "El Invernadero",
+        time: "20:00",
+        color: colors.secondary,
+      },
     ],
     9: [
       { id: "17", title: "Alice", time: "13:00", color: colors.primary },
-      { id: "18", title: "El Invernadero", time: "18:00", color: colors.secondary },
-      { id: "19", title: "Randalls Party", time: "19:15", color: colors.accent },
-      { id: "20", title: "El Invernadero", time: "19:15", color: colors.secondary },
+      {
+        id: "18",
+        title: "El Invernadero",
+        time: "18:00",
+        color: colors.secondary,
+      },
+      {
+        id: "19",
+        title: "Randalls Party",
+        time: "19:15",
+        color: colors.accent,
+      },
+      {
+        id: "20",
+        title: "El Invernadero",
+        time: "19:15",
+        color: colors.secondary,
+      },
     ],
     14: [
-      { id: "21", title: "El Invernadero", time: "10:00", color: colors.secondary },
-      { id: "22", title: "El Invernadero", time: "14:00", color: colors.secondary },
-      { id: "23", title: "El Invernadero", time: "15:00", color: colors.secondary },
-      { id: "24", title: "El Invernadero", time: "18:00", color: colors.secondary },
-      { id: "25", title: "Randalls Party", time: "18:15", color: colors.accent },
-      { id: "26", title: "El Invernadero", time: "20:00", color: colors.secondary },
-      { id: "27", title: "Randalls Party", time: "20:15", color: colors.accent },
+      {
+        id: "21",
+        title: "El Invernadero",
+        time: "10:00",
+        color: colors.secondary,
+      },
+      {
+        id: "22",
+        title: "El Invernadero",
+        time: "14:00",
+        color: colors.secondary,
+      },
+      {
+        id: "23",
+        title: "El Invernadero",
+        time: "15:00",
+        color: colors.secondary,
+      },
+      {
+        id: "24",
+        title: "El Invernadero",
+        time: "18:00",
+        color: colors.secondary,
+      },
+      {
+        id: "25",
+        title: "Randalls Party",
+        time: "18:15",
+        color: colors.accent,
+      },
+      {
+        id: "26",
+        title: "El Invernadero",
+        time: "20:00",
+        color: colors.secondary,
+      },
+      {
+        id: "27",
+        title: "Randalls Party",
+        time: "20:15",
+        color: colors.accent,
+      },
     ],
     15: [
-      { id: "28", title: "El Invernadero", time: "14:00", color: colors.secondary },
-      { id: "29", title: "El Invernadero", time: "15:00", color: colors.secondary },
-      { id: "30", title: "El Invernadero", time: "18:00", color: colors.secondary },
+      {
+        id: "28",
+        title: "El Invernadero",
+        time: "14:00",
+        color: colors.secondary,
+      },
+      {
+        id: "29",
+        title: "El Invernadero",
+        time: "15:00",
+        color: colors.secondary,
+      },
+      {
+        id: "30",
+        title: "El Invernadero",
+        time: "18:00",
+        color: colors.secondary,
+      },
     ],
     16: [
-      { id: "31", title: "El Invernadero", time: "12:00", color: colors.secondary },
-      { id: "32", title: "Randalls Party", time: "12:15", color: colors.accent },
+      {
+        id: "31",
+        title: "El Invernadero",
+        time: "12:00",
+        color: colors.secondary,
+      },
+      {
+        id: "32",
+        title: "Randalls Party",
+        time: "12:15",
+        color: colors.accent,
+      },
     ],
     18: [
-      { id: "33", title: "El Invernadero", time: "20:00", color: colors.secondary },
+      {
+        id: "33",
+        title: "El Invernadero",
+        time: "20:00",
+        color: colors.secondary,
+      },
     ],
     19: [
-      { id: "34", title: "El Invernadero", time: "20:00", color: colors.secondary },
+      {
+        id: "34",
+        title: "El Invernadero",
+        time: "20:00",
+        color: colors.secondary,
+      },
     ],
     22: [
-      { id: "35", title: "El Invernadero", time: "16:00", color: colors.secondary },
-      { id: "36", title: "El Invernadero", time: "18:00", color: colors.secondary },
-      { id: "37", title: "Randalls Party", time: "12:15", color: colors.accent },
+      {
+        id: "35",
+        title: "El Invernadero",
+        time: "16:00",
+        color: colors.secondary,
+      },
+      {
+        id: "36",
+        title: "El Invernadero",
+        time: "18:00",
+        color: colors.secondary,
+      },
+      {
+        id: "37",
+        title: "Randalls Party",
+        time: "12:15",
+        color: colors.accent,
+      },
     ],
     28: [
-      { id: "38", title: "Randalls Party", time: "12:15", color: colors.accent },
+      {
+        id: "38",
+        title: "Randalls Party",
+        time: "12:15",
+        color: colors.accent,
+      },
     ],
     29: [
-      { id: "39", title: "Randalls Party", time: "12:15", color: colors.accent },
+      {
+        id: "39",
+        title: "Randalls Party",
+        time: "12:15",
+        color: colors.accent,
+      },
     ],
   };
 
@@ -213,7 +381,10 @@ const CalendarReservations = ({ palette = "warm" }: CalendarReservationsProps) =
   };
 
   const { daysInMonth, startingDayOfWeek } = getDaysInMonth(currentDate);
-  const monthName = currentDate.toLocaleDateString("es-ES", { month: "long", year: "numeric" });
+  const monthName = currentDate.toLocaleDateString("es-ES", {
+    month: "long",
+    year: "numeric",
+  });
 
   const days = [];
   for (let i = 0; i < startingDayOfWeek; i++) {
@@ -252,9 +423,11 @@ const CalendarReservations = ({ palette = "warm" }: CalendarReservationsProps) =
   return (
     <div className="bg-white rounded-lg shadow-lg p-6">
       <div className="mb-6">
-        <h3 className="text-2xl font-bold text-gray-800 capitalize">{monthName}</h3>
+        <h3 className="text-2xl font-bold text-gray-800 capitalize">
+          {monthName}
+        </h3>
       </div>
-      
+
       <div className="grid grid-cols-7 gap-0 border border-gray-200">
         {["dom", "lun", "mar", "mié", "jue", "vie", "sáb"].map((day) => (
           <div
@@ -269,15 +442,24 @@ const CalendarReservations = ({ palette = "warm" }: CalendarReservationsProps) =
 
       <div className="mt-6 flex gap-4 flex-wrap">
         <div className="flex items-center gap-2">
-          <div className="w-4 h-4 rounded" style={{ backgroundColor: colors.primary }}></div>
+          <div
+            className="w-4 h-4 rounded"
+            style={{ backgroundColor: colors.primary }}
+          ></div>
           <span className="text-sm text-gray-700">Alice</span>
         </div>
         <div className="flex items-center gap-2">
-          <div className="w-4 h-4 rounded" style={{ backgroundColor: colors.secondary }}></div>
+          <div
+            className="w-4 h-4 rounded"
+            style={{ backgroundColor: colors.secondary }}
+          ></div>
           <span className="text-sm text-gray-700">El Invernadero</span>
         </div>
         <div className="flex items-center gap-2">
-          <div className="w-4 h-4 rounded" style={{ backgroundColor: colors.accent }}></div>
+          <div
+            className="w-4 h-4 rounded"
+            style={{ backgroundColor: colors.accent }}
+          ></div>
           <span className="text-sm text-gray-700">Randalls Party</span>
         </div>
       </div>
