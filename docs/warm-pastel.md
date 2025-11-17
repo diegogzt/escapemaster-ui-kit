@@ -2,211 +2,160 @@
 
 Paleta con tonos cálidos pastel suaves y acogedores.
 
-## 🎨 Colores
+**Colores:** `#FFB5A7` `#FCD5CE` `#F8EDEB` `#E8B4B8` `#FFF5F3` `#FFEEF0`
 
-```css
---warm-primary: #FFB5A7;   /* Rosa coral suave */
---warm-secondary: #FCD5CE; /* Rosa pálido */
---warm-accent: #F8EDEB;    /* Blanco rosado */
---warm-dark: #E8B4B8;      /* Rosa empolvado */
---warm-light: #FFF5F3;     /* Blanco cálido */
---warm-beige: #FFEEF0;     /* Beige rosado */
-```
+---
 
 ## 🔘 Botones
 
 ### Botón Primario
 ```html
-<button class="px-6 py-3 bg-warm-primary text-white rounded-lg font-semibold hover:opacity-90 transition-opacity">
+<button style="padding: 12px 24px; background-color: #FFB5A7; color: #ffffff; border: none; border-radius: 8px; font-weight: 600; font-size: 16px; cursor: pointer; transition: opacity 0.2s;">
   Primario
 </button>
 ```
 
-```css
-.btn-warm-primary {
-  padding: 0.75rem 1.5rem;
-  background-color: #FFB5A7;
-  color: #ffffff;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  transition: opacity 0.2s;
-}
-
-.btn-warm-primary:hover {
-  opacity: 0.9;
-}
-```
-
 ### Botón Secundario
 ```html
-<button class="px-6 py-3 bg-warm-secondary text-warm-dark rounded-lg font-semibold hover:opacity-90 transition-opacity">
+<button style="padding: 12px 24px; background-color: #FCD5CE; color: #E8B4B8; border: none; border-radius: 8px; font-weight: 600; font-size: 16px; cursor: pointer; transition: opacity 0.2s;">
   Secundario
 </button>
 ```
 
-```css
-.btn-warm-secondary {
-  padding: 0.75rem 1.5rem;
-  background-color: #FCD5CE;
-  color: #E8B4B8;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  transition: opacity 0.2s;
-}
-```
-
 ### Botón Outline
 ```html
-<button class="px-6 py-3 border-2 border-warm-primary text-warm-primary rounded-lg font-semibold hover:bg-warm-light transition-colors">
+<button style="padding: 12px 24px; background-color: transparent; color: #FFB5A7; border: 2px solid #FFB5A7; border-radius: 8px; font-weight: 600; font-size: 16px; cursor: pointer; transition: background-color 0.2s;">
   Outline
 </button>
 ```
 
-```css
-.btn-warm-outline {
-  padding: 0.75rem 1.5rem;
-  border: 2px solid #FFB5A7;
-  color: #FFB5A7;
-  background-color: transparent;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  transition: background-color 0.2s;
-}
-
-.btn-warm-outline:hover {
-  background-color: #FFF5F3;
-}
+### Botón Deshabilitado
+```html
+<button style="padding: 12px 24px; background-color: #FFEEF0; color: #E8B4B8; border: none; border-radius: 8px; font-weight: 600; font-size: 16px; cursor: not-allowed; opacity: 0.6;">
+  Deshabilitado
+</button>
 ```
+
+---
 
 ## 🃏 Tarjetas
 
+### Tarjeta de Reserva
 ```html
-<div class="bg-white border-2 border-warm-beige rounded-xl p-6 shadow-sm">
-  <div class="mb-3">
-    <span class="px-3 py-1 bg-warm-primary text-white text-sm font-semibold rounded-full">
+<div style="background-color: #ffffff; border: 2px solid #FFEEF0; border-radius: 12px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); max-width: 320px;">
+  <div style="margin-bottom: 12px;">
+    <span style="display: inline-block; padding: 4px 12px; background-color: #FFB5A7; color: #ffffff; font-size: 14px; font-weight: 600; border-radius: 20px;">
       Nuevo
     </span>
   </div>
-  <h4 class="text-lg font-bold text-warm-dark mb-2">Reserva Express</h4>
-  <p class="text-gray-700 mb-4">
+  <h4 style="font-size: 18px; font-weight: 700; color: #E8B4B8; margin: 0 0 8px 0;">Reserva Express</h4>
+  <p style="color: #6B7280; margin: 0 0 16px 0; font-size: 14px; line-height: 1.5;">
     Gestiona tus reservas de forma rápida y sencilla.
   </p>
-  <button class="w-full px-4 py-2 bg-warm-secondary text-warm-dark rounded-lg font-semibold hover:opacity-90">
+  <button style="width: 100%; padding: 10px 16px; background-color: #FCD5CE; color: #E8B4B8; border: none; border-radius: 8px; font-weight: 600; font-size: 14px; cursor: pointer;">
     Ver más
   </button>
 </div>
 ```
 
-```css
-.card-warm {
-  background-color: #ffffff;
-  border: 2px solid #FFEEF0;
-  border-radius: 0.75rem;
-  padding: 1.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.card-warm-badge {
-  display: inline-block;
-  padding: 0.25rem 0.75rem;
-  background-color: #FFB5A7;
-  color: #ffffff;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 9999px;
-}
+### Tarjeta Simple
+```html
+<div style="background-color: #FFF5F3; border: 2px solid #FFEEF0; border-radius: 12px; padding: 20px; max-width: 280px;">
+  <h5 style="font-size: 16px; font-weight: 600; color: #E8B4B8; margin: 0 0 8px 0;">Título</h5>
+  <p style="color: #6B7280; margin: 0; font-size: 14px;">Contenido de la tarjeta.</p>
+</div>
 ```
+
+---
 
 ## ⚠️ Alertas
 
 ### Alerta de Éxito
 ```html
-<div class="bg-warm-light border-l-4 border-warm-primary p-4 rounded">
-  <p class="text-warm-dark font-semibold">✓ Reserva confirmada exitosamente</p>
+<div style="background-color: #FFF5F3; border-left: 4px solid #FFB5A7; padding: 16px; border-radius: 4px; max-width: 400px;">
+  <p style="color: #E8B4B8; font-weight: 600; margin: 0; font-size: 14px;">✓ Reserva confirmada exitosamente</p>
 </div>
-```
-
-```css
-.alert-warm-success {
-  background-color: #FFF5F3;
-  border-left: 4px solid #FFB5A7;
-  padding: 1rem;
-  border-radius: 0.25rem;
-}
 ```
 
 ### Alerta de Advertencia
 ```html
-<div class="bg-warm-secondary bg-opacity-20 border-l-4 border-warm-secondary p-4 rounded">
-  <p class="text-warm-dark font-semibold">⚠ Verifica los datos de contacto</p>
+<div style="background-color: rgba(252, 213, 206, 0.3); border-left: 4px solid #FCD5CE; padding: 16px; border-radius: 4px; max-width: 400px;">
+  <p style="color: #E8B4B8; font-weight: 600; margin: 0; font-size: 14px;">⚠ Verifica los datos de contacto</p>
 </div>
 ```
 
-```css
-.alert-warm-warning {
-  background-color: rgba(252, 213, 206, 0.2);
-  border-left: 4px solid #FCD5CE;
-  padding: 1rem;
-  border-radius: 0.25rem;
-}
+### Alerta de Información
+```html
+<div style="background-color: #F8EDEB; border-left: 4px solid #E8B4B8; padding: 16px; border-radius: 4px; max-width: 400px;">
+  <p style="color: #E8B4B8; font-weight: 600; margin: 0; font-size: 14px;">ℹ Información importante</p>
+</div>
 ```
+
+---
 
 ## 📝 Formularios
 
+### Input de Texto
 ```html
-<div class="mb-4">
-  <label class="block text-warm-dark font-semibold mb-2">Nombre</label>
-  <input 
-    type="text" 
-    class="w-full px-4 py-2 border-2 border-warm-beige rounded-lg focus:border-warm-primary focus:outline-none"
-    placeholder="Ingresa tu nombre"
-  />
+<div style="margin-bottom: 16px; max-width: 320px;">
+  <label style="display: block; color: #E8B4B8; font-weight: 600; margin-bottom: 8px; font-size: 14px;">Nombre</label>
+  <input type="text" placeholder="Ingresa tu nombre" style="width: 100%; padding: 10px 16px; border: 2px solid #FFEEF0; border-radius: 8px; font-size: 14px; outline: none; transition: border-color 0.2s;" onfocus="this.style.borderColor='#FFB5A7'" onblur="this.style.borderColor='#FFEEF0'">
 </div>
 ```
 
-```css
-.form-input-warm {
-  width: 100%;
-  padding: 0.5rem 1rem;
-  border: 2px solid #FFEEF0;
-  border-radius: 0.5rem;
-  transition: border-color 0.2s;
-}
-
-.form-input-warm:focus {
-  border-color: #FFB5A7;
-  outline: none;
-}
+### Select
+```html
+<div style="margin-bottom: 16px; max-width: 320px;">
+  <label style="display: block; color: #E8B4B8; font-weight: 600; margin-bottom: 8px; font-size: 14px;">Servicio</label>
+  <select style="width: 100%; padding: 10px 16px; border: 2px solid #FFEEF0; border-radius: 8px; font-size: 14px; outline: none; background-color: white; cursor: pointer;" onfocus="this.style.borderColor='#FFB5A7'" onblur="this.style.borderColor='#FFEEF0'">
+    <option>Selecciona una opción</option>
+    <option>Corte de cabello</option>
+    <option>Manicura</option>
+    <option>Masaje</option>
+  </select>
+</div>
 ```
+
+### Textarea
+```html
+<div style="margin-bottom: 16px; max-width: 320px;">
+  <label style="display: block; color: #E8B4B8; font-weight: 600; margin-bottom: 8px; font-size: 14px;">Comentarios</label>
+  <textarea placeholder="Escribe aquí..." rows="4" style="width: 100%; padding: 10px 16px; border: 2px solid #FFEEF0; border-radius: 8px; font-size: 14px; outline: none; resize: vertical; font-family: inherit;" onfocus="this.style.borderColor='#FFB5A7'" onblur="this.style.borderColor='#FFEEF0'"></textarea>
+</div>
+```
+
+---
 
 ## 📅 Calendario
 
+### Día con Reserva
 ```html
-<div class="bg-white border-2 border-warm-beige rounded-xl p-8">
-  <div class="grid grid-cols-7 gap-2">
-    <div class="p-2 border border-warm-beige rounded min-h-20">
-      <div class="font-semibold text-warm-dark mb-1">1</div>
-      <div class="text-xs p-1 rounded" style="background-color: #FFB5A7; color: white;">
-        11:45 Alice
-      </div>
-    </div>
+<div style="background-color: #ffffff; border: 2px solid #FFEEF0; border-radius: 8px; padding: 12px; min-height: 100px; width: 120px;">
+  <div style="font-weight: 600; color: #E8B4B8; margin-bottom: 8px; font-size: 16px;">15</div>
+  <div style="background-color: #FFB5A7; color: #ffffff; font-size: 12px; padding: 4px 6px; border-radius: 4px; margin-bottom: 4px;">
+    09:00 Ana M.
+  </div>
+  <div style="background-color: #FCD5CE; color: #E8B4B8; font-size: 12px; padding: 4px 6px; border-radius: 4px;">
+    14:30 Carlos
   </div>
 </div>
 ```
 
-```css
-.calendar-warm {
-  background-color: #ffffff;
-  border: 2px solid #FFEEF0;
-  border-radius: 0.75rem;
-  padding: 2rem;
-}
-
-.calendar-warm-reservation {
-  background-color: #FFB5A7;
-  color: #ffffff;
-  font-size: 0.75rem;
-  padding: 0.25rem;
-  border-radius: 0.25rem;
-}
+### Calendario Completo
+```html
+<div style="background-color: #ffffff; border: 2px solid #FFEEF0; border-radius: 12px; padding: 24px; max-width: 900px;">
+  <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px;">
+    <!-- Día 1 -->
+    <div style="background-color: #FFF5F3; border: 1px solid #FFEEF0; border-radius: 6px; padding: 10px; min-height: 90px;">
+      <div style="font-weight: 600; color: #E8B4B8; margin-bottom: 6px; font-size: 14px;">1</div>
+    </div>
+    <!-- Día con reserva -->
+    <div style="background-color: #ffffff; border: 1px solid #FFEEF0; border-radius: 6px; padding: 10px; min-height: 90px;">
+      <div style="font-weight: 600; color: #E8B4B8; margin-bottom: 6px; font-size: 14px;">2</div>
+      <div style="background-color: #FFB5A7; color: #ffffff; font-size: 11px; padding: 3px 5px; border-radius: 3px;">
+        10:00 Reserva
+      </div>
+    </div>
+  </div>
+</div>
 ```

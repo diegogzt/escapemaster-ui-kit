@@ -2,53 +2,67 @@
 
 Paleta crepuscular con índigos y grises suaves.
 
-## 🎨 Colores
+**Colores:** `#4338CA` `#6B7280` `#6366F1` `#1E1B4B` `#E0E7FF` `#D1D5DB`
 
-```css
---twilight-primary: #4338CA;   /* Índigo */
---twilight-secondary: #6B7280; /* Gris */
---twilight-accent: #6366F1;    /* Índigo brillante */
---twilight-dark: #1E1B4B;      /* Índigo muy oscuro */
---twilight-light: #E0E7FF;     /* Índigo muy claro */
---twilight-beige: #D1D5DB;     /* Gris claro */
-```
+---
 
 ## 🔘 Botones
 
 ```html
-<button class="px-6 py-3 bg-twilight-primary text-white rounded-lg font-semibold">Índigo</button>
-<button class="px-6 py-3 bg-twilight-secondary text-white rounded-lg font-semibold">Gris</button>
-<button class="px-6 py-3 bg-twilight-accent text-white rounded-lg font-semibold">Índigo Brillante</button>
-<button class="px-6 py-3 bg-twilight-dark text-white rounded-lg font-semibold">Oscuro</button>
+<button style="padding: 12px 24px; background-color: #4338CA; color: #ffffff; border: none; border-radius: 8px; font-weight: 600; font-size: 16px; cursor: pointer;">Índigo</button>
 ```
 
-```css
-.btn-twilight-primary { background-color: #4338CA; color: #fff; padding: 0.75rem 1.5rem; border-radius: 0.5rem; }
-.btn-twilight-secondary { background-color: #6B7280; color: #fff; }
-.btn-twilight-accent { background-color: #6366F1; color: #fff; }
-.btn-twilight-dark { background-color: #1E1B4B; color: #fff; }
+```html
+<button style="padding: 12px 24px; background-color: #6B7280; color: #ffffff; border: none; border-radius: 8px; font-weight: 600; font-size: 16px; cursor: pointer;">Gris</button>
 ```
+
+```html
+<button style="padding: 12px 24px; background-color: #6366F1; color: #ffffff; border: none; border-radius: 8px; font-weight: 600; font-size: 16px; cursor: pointer;">Índigo Brillante</button>
+```
+
+---
 
 ## 🃏 Tarjetas
 
 ```html
-<div class="bg-white border-2 border-twilight-beige rounded-xl p-6">
-  <span class="px-3 py-1 bg-twilight-primary text-white rounded-full">Nuevo</span>
-  <h4 class="text-lg font-bold text-twilight-dark">Crepúsculo</h4>
-  <button class="w-full bg-twilight-accent text-white rounded-lg px-4 py-2">Ver más</button>
+<div style="background-color: #ffffff; border: 2px solid #D1D5DB; border-radius: 12px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); max-width: 320px;">
+  <div style="margin-bottom: 12px;">
+    <span style="display: inline-block; padding: 4px 12px; background-color: #4338CA; color: #ffffff; font-size: 14px; font-weight: 600; border-radius: 20px;">Nuevo</span>
+  </div>
+  <h4 style="font-size: 18px; font-weight: 700; color: #1E1B4B; margin: 0 0 8px 0;">Crepúsculo</h4>
+  <p style="color: #6B7280; margin: 0 0 16px 0; font-size: 14px; line-height: 1.5;">Serenidad nocturna.</p>
+  <button style="width: 100%; padding: 10px 16px; background-color: #6366F1; color: #ffffff; border: none; border-radius: 8px; font-weight: 600; font-size: 14px; cursor: pointer;">Ver más</button>
 </div>
 ```
+
+---
 
 ## ⚠️ Alertas
 
 ```html
-<div class="bg-twilight-light border-l-4 border-twilight-primary p-4 rounded">
-  <p class="text-twilight-dark font-semibold">ℹ Información</p>
+<div style="background-color: #E0E7FF; border-left: 4px solid #4338CA; padding: 16px; border-radius: 4px; max-width: 400px;">
+  <p style="color: #1E1B4B; font-weight: 600; margin: 0; font-size: 14px;">ℹ Información</p>
 </div>
 ```
+
+---
 
 ## 📝 Formularios
 
 ```html
-<input type="text" class="border-2 border-twilight-beige focus:border-twilight-primary rounded-lg px-4 py-2" />
+<div style="margin-bottom: 16px; max-width: 320px;">
+  <label style="display: block; color: #1E1B4B; font-weight: 600; margin-bottom: 8px; font-size: 14px;">Nombre</label>
+  <input type="text" placeholder="Ingresa tu nombre" style="width: 100%; padding: 10px 16px; border: 2px solid #D1D5DB; border-radius: 8px; font-size: 14px; outline: none;" onfocus="this.style.borderColor='#4338CA'" onblur="this.style.borderColor='#D1D5DB'">
+</div>
+```
+
+---
+
+## 📅 Calendario
+
+```html
+<div style="background-color: #ffffff; border: 2px solid #D1D5DB; border-radius: 8px; padding: 12px; min-height: 100px; width: 120px;">
+  <div style="font-weight: 600; color: #1E1B4B; margin-bottom: 8px; font-size: 16px;">15</div>
+  <div style="background-color: #4338CA; color: #ffffff; font-size: 12px; padding: 4px 6px; border-radius: 4px;">19:00 Evento</div>
+</div>
 ```

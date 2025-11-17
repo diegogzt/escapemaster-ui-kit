@@ -25,6 +25,7 @@ Sistema de diseño completo con 17 paletas de colores profesionales.
 ## 🚀 Uso
 
 Cada paleta incluye:
+
 - **Colores**: Variables CSS y código hex
 - **Botones**: Diferentes variantes con HTML/CSS
 - **Tarjetas**: Diseños de cards con badges

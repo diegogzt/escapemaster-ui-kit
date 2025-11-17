@@ -2,54 +2,72 @@
 
 Paleta tropical con verdes azulados y tonos cálidos.
 
-## 🎨 Colores
+**Colores:** `#1F6357` `#4DB8A8` `#F4E9CD` `#0D3D34` `#E8F5F3` `#D4C5A0` `#F4C430` `#F39C12`
 
-```css
---tropical-primary: #1F6357;   /* Verde azulado oscuro */
---tropical-secondary: #4DB8A8; /* Turquesa */
---tropical-accent: #F4E9CD;    /* Crema */
---tropical-dark: #0D3D34;      /* Verde muy oscuro */
---tropical-light: #E8F5F3;     /* Verde muy claro */
---tropical-beige: #D4C5A0;     /* Beige dorado */
---tropical-yellow: #F4C430;    /* Amarillo dorado */
---tropical-orange: #F39C12;    /* Naranja */
-```
+---
 
 ## 🔘 Botones
 
 ```html
-<button class="px-6 py-3 bg-tropical-primary text-white rounded-lg font-semibold">Verde Azulado</button>
-<button class="px-6 py-3 bg-tropical-secondary text-white rounded-lg font-semibold">Turquesa</button>
-<button class="px-6 py-3 bg-tropical-yellow text-tropical-dark rounded-lg font-semibold">Amarillo</button>
-<button class="px-6 py-3 bg-tropical-orange text-white rounded-lg font-semibold">Naranja</button>
+<button style="padding: 12px 24px; background-color: #1F6357; color: #ffffff; border: none; border-radius: 8px; font-weight: 600; font-size: 16px; cursor: pointer;">Verde Azulado</button>
 ```
 
-```css
-.btn-tropical-primary { background-color: #1F6357; color: #fff; padding: 0.75rem 1.5rem; border-radius: 0.5rem; }
-.btn-tropical-yellow { background-color: #F4C430; color: #0D3D34; }
-.btn-tropical-orange { background-color: #F39C12; color: #fff; }
+```html
+<button style="padding: 12px 24px; background-color: #4DB8A8; color: #ffffff; border: none; border-radius: 8px; font-weight: 600; font-size: 16px; cursor: pointer;">Turquesa</button>
 ```
+
+```html
+<button style="padding: 12px 24px; background-color: #F4C430; color: #0D3D34; border: none; border-radius: 8px; font-weight: 600; font-size: 16px; cursor: pointer;">Amarillo</button>
+```
+
+```html
+<button style="padding: 12px 24px; background-color: #F39C12; color: #ffffff; border: none; border-radius: 8px; font-weight: 600; font-size: 16px; cursor: pointer;">Naranja</button>
+```
+
+---
 
 ## 🃏 Tarjetas
 
 ```html
-<div class="bg-white border-2 border-tropical-beige rounded-xl p-6">
-  <span class="px-3 py-1 bg-tropical-primary text-white rounded-full">Tropical</span>
-  <h4 class="text-lg font-bold text-tropical-dark">Paraíso</h4>
-  <button class="w-full bg-tropical-secondary text-white rounded-lg px-4 py-2">Explorar</button>
+<div style="background-color: #ffffff; border: 2px solid #D4C5A0; border-radius: 12px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); max-width: 320px;">
+  <div style="margin-bottom: 12px;">
+    <span style="display: inline-block; padding: 4px 12px; background-color: #1F6357; color: #ffffff; font-size: 14px; font-weight: 600; border-radius: 20px;">Tropical</span>
+  </div>
+  <h4 style="font-size: 18px; font-weight: 700; color: #0D3D34; margin: 0 0 8px 0;">Paraíso</h4>
+  <p style="color: #6B7280; margin: 0 0 16px 0; font-size: 14px; line-height: 1.5;">Descubre experiencias tropicales.</p>
+  <button style="width: 100%; padding: 10px 16px; background-color: #4DB8A8; color: #ffffff; border: none; border-radius: 8px; font-weight: 600; font-size: 14px; cursor: pointer;">Explorar</button>
 </div>
 ```
+
+---
 
 ## ⚠️ Alertas
 
 ```html
-<div class="bg-tropical-light border-l-4 border-tropical-primary p-4 rounded">
-  <p class="text-tropical-dark font-semibold">✓ Confirmado</p>
+<div style="background-color: #E8F5F3; border-left: 4px solid #1F6357; padding: 16px; border-radius: 4px; max-width: 400px;">
+  <p style="color: #0D3D34; font-weight: 600; margin: 0; font-size: 14px;">✓ Confirmado</p>
 </div>
 ```
+
+---
 
 ## 📝 Formularios
 
 ```html
-<input type="text" class="border-2 border-tropical-beige focus:border-tropical-primary rounded-lg px-4 py-2" />
+<div style="margin-bottom: 16px; max-width: 320px;">
+  <label style="display: block; color: #0D3D34; font-weight: 600; margin-bottom: 8px; font-size: 14px;">Nombre</label>
+  <input type="text" placeholder="Ingresa tu nombre" style="width: 100%; padding: 10px 16px; border: 2px solid #D4C5A0; border-radius: 8px; font-size: 14px; outline: none;" onfocus="this.style.borderColor='#1F6357'" onblur="this.style.borderColor='#D4C5A0'">
+</div>
+```
+
+---
+
+## 📅 Calendario
+
+```html
+<div style="background-color: #ffffff; border: 2px solid #D4C5A0; border-radius: 8px; padding: 12px; min-height: 100px; width: 120px;">
+  <div style="font-weight: 600; color: #0D3D34; margin-bottom: 8px; font-size: 16px;">15</div>
+  <div style="background-color: #1F6357; color: #ffffff; font-size: 12px; padding: 4px 6px; border-radius: 4px; margin-bottom: 4px;">09:00 Excursión</div>
+  <div style="background-color: #4DB8A8; color: #ffffff; font-size: 12px; padding: 4px 6px; border-radius: 4px;">14:30 Playa</div>
+</div>
 ```
