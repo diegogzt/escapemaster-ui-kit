@@ -27,8 +27,8 @@ export const Auth: React.FC<AuthProps> = ({
 
     if (password === passwordHash) {
       // Guardar autenticación en sessionStorage
-      sessionStorage.setItem("flowy_authenticated", "true");
-      sessionStorage.setItem("flowy_auth_time", Date.now().toString());
+      sessionStorage.setItem("escapemaster_authenticated", "true");
+      sessionStorage.setItem("escapemaster_auth_time", Date.now().toString());
       onAuthenticated();
     } else {
       setError("Contraseña incorrecta");
@@ -68,7 +68,7 @@ export const Auth: React.FC<AuthProps> = ({
               </svg>
             </div>
             <h1 className="text-3xl font-bold text-slate-900">
-              {appName || "Flowy UI Kit"}
+              {appName || "Escapemaster UI Kit"}
             </h1>
             <p className="text-slate-600 text-sm">
               Ingresa la contraseña para acceder

@@ -1,4 +1,4 @@
-# 📚 Guía Completa de Flowy UI Kit
+# 📚 Guía Completa de Escapemaster UI Kit
 
 ## Tabla de contenidos
 
@@ -16,8 +16,8 @@
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/diegogzt/flowy-ui-kit.git
-cd flowy-ui-kit
+git clone https://github.com/diegogzt/escapemaster-ui-kit.git
+cd escapemaster-ui-kit
 
 # Instalar dependencias
 npm install
@@ -32,7 +32,7 @@ npm run build
 ### Desde npm (próximamente)
 
 ```bash
-npm install flowy-ui-kit
+npm install escapemaster-ui-kit
 ```
 
 ---
@@ -42,7 +42,7 @@ npm install flowy-ui-kit
 ### Estructura del proyecto
 
 ```
-flowy-ui-kit/
+escapemaster-ui-kit/
 ├── src/
 │   ├── components/     # Componentes reutilizables
 │   ├── utils/         # Funciones utilitarias
@@ -56,7 +56,7 @@ flowy-ui-kit/
 ### Crear tu primer componente
 
 ```tsx
-import { Button, Card, Input } from "flowy-ui-kit";
+import { Button, Card, Input } from "escapemaster-ui-kit";
 
 export function MyForm() {
   return (
@@ -110,7 +110,7 @@ Campo de entrada de texto.
 
 ```tsx
 import { useState } from "react";
-import { Input } from "flowy-ui-kit";
+import { Input } from "escapemaster-ui-kit";
 
 function App() {
   const [value, setValue] = useState("");
@@ -143,7 +143,7 @@ function App() {
 Contenedor con estructura de tarjeta.
 
 ```tsx
-import { Card, CardHeader, CardTitle, CardFooter, Button } from "flowy-ui-kit";
+import { Card, CardHeader, CardTitle, CardFooter, Button } from "escapemaster-ui-kit";
 
 <Card>
   <CardHeader>
@@ -203,7 +203,7 @@ Notificaciones y alertas.
 Calendario interactivo para selección de fechas.
 
 ```tsx
-import { Calendar } from "flowy-ui-kit";
+import { Calendar } from "escapemaster-ui-kit";
 import { useState } from "react";
 
 function Booking() {
@@ -239,7 +239,7 @@ function Booking() {
 #### Checkbox
 
 ```tsx
-import { Checkbox } from "flowy-ui-kit";
+import { Checkbox } from "escapemaster-ui-kit";
 import { useState } from "react";
 
 function App() {
@@ -258,7 +258,7 @@ function App() {
 #### Radio
 
 ```tsx
-import { Radio } from 'flowy-ui-kit';
+import { Radio } from 'escapemaster-ui-kit';
 
 <Radio name="options" value="opt1" label="Opción 1" />
 <Radio name="options" value="opt2" label="Opción 2" />
@@ -268,7 +268,7 @@ import { Radio } from 'flowy-ui-kit';
 #### Select
 
 ```tsx
-import { Select } from "flowy-ui-kit";
+import { Select } from "escapemaster-ui-kit";
 
 <Select>
   <option value="">Selecciona una opción</option>
@@ -281,7 +281,7 @@ import { Select } from "flowy-ui-kit";
 #### Toggle
 
 ```tsx
-import { Toggle } from "flowy-ui-kit";
+import { Toggle } from "escapemaster-ui-kit";
 import { useState } from "react";
 
 function App() {
@@ -304,7 +304,7 @@ function App() {
 #### Badge
 
 ```tsx
-import { Badge } from 'flowy-ui-kit';
+import { Badge } from 'escapemaster-ui-kit';
 
 <Badge variant="primary">Nuevo</Badge>
 <Badge variant="secondary">En progreso</Badge>
@@ -315,7 +315,7 @@ import { Badge } from 'flowy-ui-kit';
 #### Avatar
 
 ```tsx
-import { Avatar } from 'flowy-ui-kit';
+import { Avatar } from 'escapemaster-ui-kit';
 
 <Avatar
   src="https://ejemplo.com/avatar.jpg"
@@ -333,7 +333,7 @@ import { Avatar } from 'flowy-ui-kit';
 #### Table
 
 ```tsx
-import { Table } from "flowy-ui-kit";
+import { Table } from "escapemaster-ui-kit";
 
 const columns = [
   { key: "id", header: "ID" },
@@ -352,7 +352,7 @@ const data = [
 #### Tabs
 
 ```tsx
-import { Tabs } from "flowy-ui-kit";
+import { Tabs } from "escapemaster-ui-kit";
 
 <Tabs defaultValue="tab1">
   <div value="tab1" label="Pestaña 1">
@@ -367,7 +367,7 @@ import { Tabs } from "flowy-ui-kit";
 #### List
 
 ```tsx
-import { List } from 'flowy-ui-kit';
+import { List } from 'escapemaster-ui-kit';
 
 <List ordered>
   <li>Primer item</li>
@@ -422,10 +422,10 @@ module.exports = {
 
 ```tsx
 // ✅ Bien
-import { Button, Card } from "flowy-ui-kit";
+import { Button, Card } from "escapemaster-ui-kit";
 
 // ❌ Evita
-import * as UI from "flowy-ui-kit";
+import * as UI from "escapemaster-ui-kit";
 ```
 
 ### 2. Usa TypeScript
@@ -489,9 +489,9 @@ export function LoginForm({ onSubmit, isLoading }: LoginFormProps) {
 
 ## Ayuda y soporte
 
-- 📖 [Documentación completa](https://github.com/diegogzt/flowy-ui-kit)
-- 🐛 [Reportar bugs](https://github.com/diegogzt/flowy-ui-kit/issues)
-- 💬 [Discusiones](https://github.com/diegogzt/flowy-ui-kit/discussions)
+- 📖 [Documentación completa](https://github.com/diegogzt/escapemaster-ui-kit)
+- 🐛 [Reportar bugs](https://github.com/diegogzt/escapemaster-ui-kit/issues)
+- 💬 [Discusiones](https://github.com/diegogzt/escapemaster-ui-kit/discussions)
 
 ---
 

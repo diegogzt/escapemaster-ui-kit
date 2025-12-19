@@ -1,13 +1,13 @@
-# 📦 Guía de Despliegue - Flowy UI Kit
+# 📦 Guía de Despliegue - Escapemaster UI Kit
 
 ## 🎯 Estado actual
 
 ✅ **Proyecto completamente configurado para GitHub Pages**
 
-- ✅ Repositorio en GitHub: `diegogzt/flowy-ui-kit`
+- ✅ Repositorio en GitHub: `diegogzt/escapemaster-ui-kit`
 - ✅ GitHub Actions configurado para despliegue automático
-- ✅ Componente Auth con protección por contraseña (flowy2025)
-- ✅ Base URL configurada para: `/flowy-ui-kit/`
+- ✅ Componente Auth con protección por contraseña (escapemaster2025)
+- ✅ Base URL configurada para: `/escapemaster-ui-kit/`
 
 ---
 
@@ -33,12 +33,12 @@ El proyecto se despliega **automáticamente** en cada push a `main`:
    - Publica en GitHub Pages
 
 3. **Tu sitio está listo**
-   - URL: `https://diegogzt.github.io/flowy-ui-kit/`
+   - URL: `https://diegogzt.github.io/escapemaster-ui-kit/`
    - Disponible en ~2-3 minutos
 
 ### Verificar el estado
 
-1. Ve a: https://github.com/diegogzt/flowy-ui-kit
+1. Ve a: https://github.com/diegogzt/escapemaster-ui-kit
 2. Haz clic en **Actions**
 3. Verás el último workflow:
    - 🟢 Verde = Desplegado exitosamente
@@ -51,9 +51,9 @@ El proyecto se despliega **automáticamente** en cada push a `main`:
 
 ### Acceder al sitio
 
-1. Abre: `https://diegogzt.github.io/flowy-ui-kit/`
+1. Abre: `https://diegogzt.github.io/escapemaster-ui-kit/`
 2. Se mostrará un popup de login
-3. Ingresa la contraseña: **`flowy2025`**
+3. Ingresa la contraseña: **`escapemaster2025`**
 
 ### Cambiar la contraseña
 
@@ -78,7 +78,7 @@ El proyecto se despliega **automáticamente** en cada push a `main`:
 ## 📱 Estructura de URLs
 
 ```
-https://diegogzt.github.io/flowy-ui-kit/
+https://diegogzt.github.io/escapemaster-ui-kit/
 ├── /                    # Página principal (con Auth)
 ├── /assets/             # Assets estáticos (CSS, JS)
 ├── /dist/               # Archivos compilados
@@ -91,7 +91,7 @@ https://diegogzt.github.io/flowy-ui-kit/
 
 ### Verificar que está habilitado
 
-1. Ve a: https://github.com/diegogzt/flowy-ui-kit/settings/pages
+1. Ve a: https://github.com/diegogzt/escapemaster-ui-kit/settings/pages
 2. Verificar:
    - ✅ **Source**: "Deploy from a branch"
    - ✅ **Branch**: gh-pages
@@ -112,13 +112,13 @@ En **Settings → Pages**:
 
 Antes de considerar el proyecto "deployado":
 
-- [ ] Repositorio en GitHub (diegogzt/flowy-ui-kit)
+- [ ] Repositorio en GitHub (diegogzt/escapemaster-ui-kit)
 - [ ] Branch principal configurada a `main`
 - [ ] GitHub Actions ejecutado exitosamente
 - [ ] GitHub Pages habilitado
-- [ ] URL accesible: https://diegogzt.github.io/flowy-ui-kit/
+- [ ] URL accesible: https://diegogzt.github.io/escapemaster-ui-kit/
 - [ ] Auth popup mostrando con contraseña
-- [ ] Contraseña funciona (flowy2025)
+- [ ] Contraseña funciona (escapemaster2025)
 - [ ] Componentes cargan correctamente
 - [ ] Documentación visible en el sitio
 
@@ -134,7 +134,7 @@ Antes de considerar el proyecto "deployado":
 
 1. Verifica que GitHub Pages esté habilitado en Settings
 2. Asegúrate que la rama `gh-pages` existe
-3. En `vite.config.ts` debe tener: `base: "/flowy-ui-kit/"`
+3. En `vite.config.ts` debe tener: `base: "/escapemaster-ui-kit/"`
 4. Compila y haz push: `npm run build && git push`
 
 ### El sitio tarda mucho en actualizar
@@ -156,8 +156,8 @@ Antes de considerar el proyecto "deployado":
 
 1. Limpia storage del navegador (F12 → Application → Storage → Delete All)
 2. Recarga la página
-3. Intenta la contraseña exactamente: `flowy2025`
-4. Verifica que `.env` tiene: `VITE_AUTH_PASSWORD=flowy2025`
+3. Intenta la contraseña exactamente: `escapemaster2025`
+4. Verifica que `.env` tiene: `VITE_AUTH_PASSWORD=escapemaster2025`
 
 ### Estilos no cargan
 
@@ -215,7 +215,7 @@ Para este proyecto de demostración, está bien así, pero ten en cuenta las imp
 
 ## 🎉 ¡Felicidades!
 
-Tu Flowy UI Kit está deployado en GitHub Pages con:
+Tu Escapemaster UI Kit está deployado en GitHub Pages con:
 
 - ✅ 20+ componentes React profesionales
 - ✅ Documentación completa
@@ -225,11 +225,11 @@ Tu Flowy UI Kit está deployado en GitHub Pages con:
 
 **Próximos pasos:**
 
-1. Compartir el enlace: https://diegogzt.github.io/flowy-ui-kit/
+1. Compartir el enlace: https://diegogzt.github.io/escapemaster-ui-kit/
 2. Agregar más componentes según sea necesario
 3. Publicar en npm cuando esté listo
 4. Implementar pruebas unitarias
 
 ---
 
-**¿Necesitas ayuda?** Abre un issue en https://github.com/diegogzt/flowy-ui-kit/issues
+**¿Necesitas ayuda?** Abre un issue en https://github.com/diegogzt/escapemaster-ui-kit/issues

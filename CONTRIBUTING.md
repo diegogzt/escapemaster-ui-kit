@@ -1,11 +1,11 @@
 # 🤝 Guía de Contribución
 
-¡Gracias por tu interés en contribuir a Flowy UI Kit! Esta guía te ayudará a entender cómo contribuir de la mejor manera.
+¡Gracias por tu interés en contribuir a Escapemaster UI Kit! Esta guía te ayudará a entender cómo contribuir de la mejor manera.
 
 ## Antes de empezar
 
 1. **Fork** el repositorio
-2. **Clone** tu fork: `git clone https://github.com/TU_USUARIO/flowy-ui-kit.git`
+2. **Clone** tu fork: `git clone https://github.com/TU_USUARIO/escapemaster-ui-kit.git`
 3. **Crea una rama** para tu feature: `git checkout -b feature/mi-componente`
 
 ## Proceso de desarrollo
@@ -264,7 +264,7 @@ Cuándo/dónde se usaría esta feature
 
 ## Preguntas
 
-- 💬 [Discussions](https://github.com/diegogzt/flowy-ui-kit/discussions)
+- 💬 [Discussions](https://github.com/diegogzt/escapemaster-ui-kit/discussions)
 - 📧 diego.gzt@example.com
 
 ---

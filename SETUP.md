@@ -4,7 +4,7 @@
 
 ### 1. Requisitos previos
 
-- ✅ Repositorio en GitHub (ya creado: `diegogzt/flowy-ui-kit`)
+- ✅ Repositorio en GitHub (ya creado: `diegogzt/escapemaster-ui-kit`)
 - ✅ Acceso de administrador al repositorio
 - ✅ GitHub Actions habilitado (por defecto)
 
@@ -18,7 +18,7 @@ El proyecto está configurado para desplegar automáticamente a GitHub Pages usa
    - Se ejecuta automáticamente el workflow `.github/workflows/deploy.yml`
    - Se compila el proyecto (`npm run build`)
    - Se copia la carpeta `dist/` a la rama `gh-pages`
-   - El sitio se publica en `https://diegogzt.github.io/flowy-ui-kit/`
+   - El sitio se publica en `https://diegogzt.github.io/escapemaster-ui-kit/`
 
 ### 3. Configurar en la interfaz de GitHub
 
@@ -36,7 +36,7 @@ Si necesitas configurar manualmente:
 - Puedes ver el estado en **Actions**
 - Una vez completado, el sitio estará disponible en:
   ```
-  https://diegogzt.github.io/flowy-ui-kit/
+  https://diegogzt.github.io/escapemaster-ui-kit/
   ```
 
 ### 5. Variables de entorno en GitHub Pages
@@ -58,7 +58,7 @@ npm run build
 # Ver el build localmente
 npm run preview
 
-# Accede a http://localhost:4173/flowy-ui-kit/
+# Accede a http://localhost:4173/escapemaster-ui-kit/
 ```
 
 ---
@@ -71,7 +71,7 @@ npm run preview
 
 **Solución**:
 
-1. Verifica que `vite.config.ts` tenga `base: "/flowy-ui-kit/"`
+1. Verifica que `vite.config.ts` tenga `base: "/escapemaster-ui-kit/"`
 2. Compila de nuevo: `npm run build`
 3. Haz push: `git push origin main`
 4. Espera a que se ejecute el workflow en **Actions**
@@ -82,8 +82,8 @@ npm run preview
 
 **Solución**:
 
-1. Asegúrate de que el `.env` existe con `VITE_AUTH_PASSWORD=flowy2025`
-2. La contraseña debe ser exactamente: `flowy2025` (sin espacios)
+1. Asegúrate de que el `.env` existe con `VITE_AUTH_PASSWORD=escapemaster2025`
+2. La contraseña debe ser exactamente: `escapemaster2025` (sin espacios)
 3. Recarga la página (Cmd + Shift + R)
 
 ### Los estilos se ven rotos
@@ -108,4 +108,4 @@ npm run preview
 
 ---
 
-**¿Preguntas?** Abre un issue en GitHub: https://github.com/diegogzt/flowy-ui-kit/issues
+**¿Preguntas?** Abre un issue en GitHub: https://github.com/diegogzt/escapemaster-ui-kit/issues

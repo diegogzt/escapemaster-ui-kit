@@ -23,8 +23,8 @@
 
 #### ✅ Cambio 3: vite.config.ts
 
-- Mantenemos `base: "/flowy-ui-kit/"` para GitHub Pages
-- Scripts y CSS tienen rutas correctas: `/flowy-ui-kit/assets/...`
+- Mantenemos `base: "/escapemaster-ui-kit/"` para GitHub Pages
+- Scripts y CSS tienen rutas correctas: `/escapemaster-ui-kit/assets/...`
 - Favicon tiene ruta relativa: `./vite.svg`
 
 ## 📋 Checklist de verificación
@@ -51,7 +51,7 @@ git show origin/gh-pages:assets/index-*.js | wc -c
 
 ### 3. Acceder al sitio
 
-- URL: `https://diegogzt.github.io/flowy-ui-kit/`
+- URL: `https://diegogzt.github.io/escapemaster-ui-kit/`
 - Debería mostrar la página SIN error 404
 - Se debería ver el popup de autenticación
 

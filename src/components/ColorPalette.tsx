@@ -84,7 +84,7 @@ export function ColorPalette({ colors, title }: ColorPaletteProps) {
 
 // Definiciones de paletas de colores
 export const palettes = {
-  flowy: [
+  escapemaster: [
     { name: "Primary", value: "#e46f20" },
     { name: "Secondary", value: "#fcb72b" },
     { name: "Accent", value: "#cc5803" },

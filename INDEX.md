@@ -1,13 +1,13 @@
-# 📖 Documentación - Flowy UI Kit
+# 📖 Documentación - Escapemaster UI Kit
 
-Bienvenido a **Flowy UI Kit**, un sistema completo de componentes React profesionales.
+Bienvenido a **Escapemaster UI Kit**, un sistema completo de componentes React profesionales.
 
 ## 🚀 Acceso Rápido
 
 | Enlace                                                                | Descripción                                                  |
 | --------------------------------------------------------------------- | ------------------------------------------------------------ |
-| 🌐 **[Demo en vivo](https://diegogzt.github.io/flowy-ui-kit/)**       | Accede a la demostración interactiva (contraseña: flowy2025) |
-| 💻 **[Repositorio GitHub](https://github.com/diegogzt/flowy-ui-kit)** | Código fuente y gestión de issues                            |
+| 🌐 **[Demo en vivo](https://diegogzt.github.io/escapemaster-ui-kit/)**       | Accede a la demostración interactiva (contraseña: escapemaster2025) |
+| 💻 **[Repositorio GitHub](https://github.com/diegogzt/escapemaster-ui-kit)** | Código fuente y gestión de issues                            |
 | 📚 **[README.md](README.md)**                                         | Introducción y características principales                   |
 
 ---
@@ -38,16 +38,16 @@ Bienvenido a **Flowy UI Kit**, un sistema completo de componentes React profesio
 ### 1. Ver la demo
 
 ```
-Abre: https://diegogzt.github.io/flowy-ui-kit/
-Contraseña: flowy2025
+Abre: https://diegogzt.github.io/escapemaster-ui-kit/
+Contraseña: escapemaster2025
 ```
 
 ### 2. Usar los componentes localmente
 
 ```bash
 # Clonar
-git clone https://github.com/diegogzt/flowy-ui-kit.git
-cd flowy-ui-kit
+git clone https://github.com/diegogzt/escapemaster-ui-kit.git
+cd escapemaster-ui-kit
 
 # Instalar
 npm install
@@ -76,7 +76,7 @@ import { Button, Card, Calendar } from './components';
 ### Botones & Acciones
 
 ```tsx
-import { Button, Link } from 'flowy-ui-kit';
+import { Button, Link } from 'escapemaster-ui-kit';
 
 <Button variant="primary">Primario</Button>
 <Link href="#example">Enlace</Link>
@@ -85,7 +85,7 @@ import { Button, Link } from 'flowy-ui-kit';
 ### Alertas
 
 ```tsx
-import { Alert } from 'flowy-ui-kit';
+import { Alert } from 'escapemaster-ui-kit';
 
 <Alert variant="success">¡Éxito!</Alert>
 <Alert variant="error">Error</Alert>
@@ -94,7 +94,7 @@ import { Alert } from 'flowy-ui-kit';
 ### Formularios
 
 ```tsx
-import { Input, Select, Checkbox, Toggle } from 'flowy-ui-kit';
+import { Input, Select, Checkbox, Toggle } from 'escapemaster-ui-kit';
 
 <Input placeholder="Tu nombre" />
 <Select><option>Opción 1</option></Select>
@@ -105,7 +105,7 @@ import { Input, Select, Checkbox, Toggle } from 'flowy-ui-kit';
 ### Datos
 
 ```tsx
-import { Card, Table, Tabs, Calendar } from 'flowy-ui-kit';
+import { Card, Table, Tabs, Calendar } from 'escapemaster-ui-kit';
 
 <Card>Contenedor</Card>
 <Table columns={cols} data={data} />
@@ -119,12 +119,12 @@ import { Card, Table, Tabs, Calendar } from 'flowy-ui-kit';
 
 El sitio está protegido con un componente Auth personalizado:
 
-**Contraseña:** `flowy2025`
+**Contraseña:** `escapemaster2025`
 
 Configurable en `.env`:
 
 ```env
-VITE_AUTH_PASSWORD=flowy2025
+VITE_AUTH_PASSWORD=escapemaster2025
 ```
 
 ---
@@ -154,7 +154,7 @@ VITE_AUTH_PASSWORD=flowy2025
 ## 🎯 Estructura del Repositorio
 
 ```
-flowy-ui-kit/
+escapemaster-ui-kit/
 ├── src/
 │   ├── components/          # Componentes React
 │   │   ├── Button.tsx
@@ -191,8 +191,8 @@ flowy-ui-kit/
 
 ### Recursos externos
 
-- 🔗 [GitHub Repository](https://github.com/diegogzt/flowy-ui-kit)
-- 🌐 [Demo en vivo](https://diegogzt.github.io/flowy-ui-kit/)
+- 🔗 [GitHub Repository](https://github.com/diegogzt/escapemaster-ui-kit)
+- 🌐 [Demo en vivo](https://diegogzt.github.io/escapemaster-ui-kit/)
 - 📦 [React Documentation](https://react.dev)
 - 🎨 [Tailwind CSS](https://tailwindcss.com)
 - ⚡ [Vite Guide](https://vitejs.dev)
@@ -203,7 +203,7 @@ flowy-ui-kit/
 
 **¿Cuál es la contraseña?**
 
-> `flowy2025`
+> `escapemaster2025`
 
 **¿Cómo cambio la contraseña?**
 
@@ -225,8 +225,8 @@ flowy-ui-kit/
 
 ## 🆘 Soporte
 
-- 🐛 **Reportar bugs:** [GitHub Issues](https://github.com/diegogzt/flowy-ui-kit/issues)
-- 💬 **Discusiones:** [GitHub Discussions](https://github.com/diegogzt/flowy-ui-kit/discussions)
+- 🐛 **Reportar bugs:** [GitHub Issues](https://github.com/diegogzt/escapemaster-ui-kit/issues)
+- 💬 **Discusiones:** [GitHub Discussions](https://github.com/diegogzt/escapemaster-ui-kit/discussions)
 - 📧 **Email:** diego.gzt@example.com
 
 ---
@@ -239,7 +239,7 @@ flowy-ui-kit/
 
 ## 🎉 Comenzar ahora
 
-1. **Explora la demo:** https://diegogzt.github.io/flowy-ui-kit/ (contraseña: flowy2025)
+1. **Explora la demo:** https://diegogzt.github.io/escapemaster-ui-kit/ (contraseña: escapemaster2025)
 2. **Lee la documentación:** [README.md](README.md)
 3. **Copia componentes:** Desde `src/components/`
 4. **¡Usa en tu proyecto!**

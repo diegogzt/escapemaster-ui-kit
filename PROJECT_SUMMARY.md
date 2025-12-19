@@ -1,4 +1,4 @@
-# 🎉 Resumen - Flowy UI Kit Completado
+# 🎉 Resumen - Escapemaster UI Kit Completado
 
 ## ✨ Lo que se ha logrado
 
@@ -42,14 +42,14 @@
 
 ## 📦 Repositorio GitHub
 
-**URL:** https://github.com/diegogzt/flowy-ui-kit
+**URL:** https://github.com/diegogzt/escapemaster-ui-kit
 
 **Contenido:**
 
 - ✅ 20+ componentes React listos para usar
 - ✅ 100% TypeScript con type safety
 - ✅ Tailwind CSS con paleta de colores personalizada
-- ✅ Componente Auth con protección por contraseña (flowy2025)
+- ✅ Componente Auth con protección por contraseña (escapemaster2025)
 - ✅ GitHub Actions para despliegue automático
 - ✅ Documentación completa y guías de uso
 
@@ -57,15 +57,15 @@
 
 ## 🚀 GitHub Pages
 
-**URL Pública:** https://diegogzt.github.io/flowy-ui-kit/
+**URL Pública:** https://diegogzt.github.io/escapemaster-ui-kit/
 
 **Estado:** ✅ Configurado y listo para desplegar
 
 **Características:**
 
 - ✅ Despliegue automático en cada push a `main`
-- ✅ Popup de autenticación (contraseña: flowy2025)
-- ✅ Base URL correctamente configurada: `/flowy-ui-kit/`
+- ✅ Popup de autenticación (contraseña: escapemaster2025)
+- ✅ Base URL correctamente configurada: `/escapemaster-ui-kit/`
 - ✅ SSL/TLS habilitado automáticamente
 
 ---
@@ -99,13 +99,13 @@ Un componente `Auth` hermoso con:
 ### Contraseña configurada
 
 ```
-Contraseña: flowy2025
+Contraseña: escapemaster2025
 ```
 
 Se define en `.env`:
 
 ```env
-VITE_AUTH_PASSWORD=flowy2025
+VITE_AUTH_PASSWORD=escapemaster2025
 ```
 
 ---
@@ -155,7 +155,7 @@ CI/CD                 → GitHub Actions
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/diegogzt/flowy-ui-kit.git
+git clone https://github.com/diegogzt/escapemaster-ui-kit.git
 ```
 
 2. Copia la carpeta `src/components` a tu proyecto
@@ -173,9 +173,9 @@ import { Button, Card, Calendar } from './components';
 
 ### Opción 2: Usar la demo en línea
 
-Accede a: https://diegogzt.github.io/flowy-ui-kit/
+Accede a: https://diegogzt.github.io/escapemaster-ui-kit/
 
-Contraseña: `flowy2025`
+Contraseña: `escapemaster2025`
 
 ---
 
@@ -187,10 +187,10 @@ Contraseña: `flowy2025`
 - ✅ TypeScript 100% con interfaces tipadas
 - ✅ Tailwind CSS integrado con paleta personalizada
 - ✅ Componente Auth con popup de login
-- ✅ Contraseña desde `.env` (flowy2025)
+- ✅ Contraseña desde `.env` (escapemaster2025)
 - ✅ GitHub Actions workflow configurado
 - ✅ GitHub Pages habilitado y funcionando
-- ✅ Base URL configurada: `/flowy-ui-kit/`
+- ✅ Base URL configurada: `/escapemaster-ui-kit/`
 - ✅ Documentación profesional completa
 - ✅ README actualizado
 - ✅ GUIDE.md con ejemplos detallados
@@ -208,7 +208,7 @@ Contraseña: `flowy2025`
 
 1. **Compartir el enlace:**
 
-   - https://diegogzt.github.io/flowy-ui-kit/
+   - https://diegogzt.github.io/escapemaster-ui-kit/
 
 2. **Agregar más componentes:**
 
@@ -227,7 +227,7 @@ Contraseña: `flowy2025`
 4. **Publicar en npm:**
 
    - Crear cuenta en npm.js
-   - Publicar `flowy-ui-kit`
+   - Publicar `escapemaster-ui-kit`
    - Usar como dependencia en otros proyectos
 
 5. **Agregar características:**
@@ -240,8 +240,8 @@ Contraseña: `flowy2025`
 
 ## 📞 Soporte
 
-- 🐛 **Reportar bugs:** https://github.com/diegogzt/flowy-ui-kit/issues
-- 💬 **Discusiones:** https://github.com/diegogzt/flowy-ui-kit/discussions
+- 🐛 **Reportar bugs:** https://github.com/diegogzt/escapemaster-ui-kit/issues
+- 💬 **Discusiones:** https://github.com/diegogzt/escapemaster-ui-kit/discussions
 - 📧 **Contacto:** diego.gzt@example.com
 
 ---
@@ -270,7 +270,7 @@ copies or substantial portions of the Software.
 
 ## 🎉 ¡Proyecto completado con éxito!
 
-Tu **Flowy UI Kit** está:
+Tu **Escapemaster UI Kit** está:
 
 - ✅ Completo y funcional
 - ✅ Documentado profesionalmente
@@ -278,9 +278,9 @@ Tu **Flowy UI Kit** está:
 - ✅ Listo para producción
 - ✅ Fácil de mantener y extender
 
-**Visita:** https://diegogzt.github.io/flowy-ui-kit/
+**Visita:** https://diegogzt.github.io/escapemaster-ui-kit/
 
-**Contraseña:** flowy2025
+**Contraseña:** escapemaster2025
 
 ---
 

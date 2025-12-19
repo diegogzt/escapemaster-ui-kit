@@ -13,11 +13,11 @@ El sitio mostraba **error 404** aunque el deploy fue exitoso. Esto es porque el 
 ```typescript
 export default defineConfig({
   plugins: [react()],
-  base: "/flowy-ui-kit/",
+  base: "/escapemaster-ui-kit/",
   build: {
     lib: {
       entry: "src/components/index.ts",
-      name: "FlowynUIKit",
+      name: "EscapemasternUIKit",
       // ... más configuración de librería
     },
     rollupOptions: {
@@ -33,7 +33,7 @@ export default defineConfig({
 ```typescript
 export default defineConfig({
   plugins: [react()],
-  base: "/flowy-ui-kit/",
+  base: "/escapemaster-ui-kit/",
 });
 ```
 
@@ -42,7 +42,7 @@ export default defineConfig({
 **Antes:**
 
 ```html
-<script type="module" src="/flowy-ui-kit/src/main.tsx"></script>
+<script type="module" src="/escapemaster-ui-kit/src/main.tsx"></script>
 ```
 
 **Después:**
@@ -51,7 +51,7 @@ export default defineConfig({
 <script type="module" src="/src/main.tsx"></script>
 ```
 
-El `base: "/flowy-ui-kit/"` en vite.config.ts se encarga automáticamente de agregar la ruta base.
+El `base: "/escapemaster-ui-kit/"` en vite.config.ts se encarga automáticamente de agregar la ruta base.
 
 ## ¿Qué cambió en el build?
 
@@ -77,10 +77,10 @@ dist/
 El sitio ahora debería estar disponible en:
 
 ```
-https://diegogzt.github.io/flowy-ui-kit/
+https://diegogzt.github.io/escapemaster-ui-kit/
 ```
 
-**Contraseña:** `flowy2025`
+**Contraseña:** `escapemaster2025`
 
 ## Próximos pasos
 

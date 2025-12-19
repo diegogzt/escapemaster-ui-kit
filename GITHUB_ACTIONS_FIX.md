@@ -5,7 +5,7 @@
 El workflow de GitHub Actions no tenía permisos para escribir en la rama `gh-pages`:
 
 ```
-remote: Permission to diegogzt/flowy-ui-kit.git denied to github-actions[bot].
+remote: Permission to diegogzt/escapemaster-ui-kit.git denied to github-actions[bot].
 fatal: unable to access '...': The requested URL returned error: 403
 ```
 
@@ -76,7 +76,7 @@ Después de hacer esto:
 1. Ve a **Actions** en tu repositorio
 2. Deberías ver un nuevo workflow ejecutándose
 3. Si está verde ✅, significa que funcionó
-4. Tu sitio estará disponible en: `https://diegogzt.github.io/flowy-ui-kit/`
+4. Tu sitio estará disponible en: `https://diegogzt.github.io/escapemaster-ui-kit/`
 
 ---
 
@@ -123,7 +123,7 @@ Si aún tienes problemas:
 
 1. Verifica que seguiste los pasos correctamente
 2. Espera 2-3 minutos después de cambiar los permisos
-3. Abre un issue en: https://github.com/diegogzt/flowy-ui-kit/issues
+3. Abre un issue en: https://github.com/diegogzt/escapemaster-ui-kit/issues
 
 ---
 

@@ -1,4 +1,4 @@
-# Flowy UI Kit
+# Escapemaster UI Kit
 
 Un completo y moderno sistema de componentes UI construido con React, TypeScript y Tailwind CSS. Perfecto para crear interfaces consistentes y profesionales.
 
@@ -16,7 +16,7 @@ Un completo y moderno sistema de componentes UI construido con React, TypeScript
 ### Como dependencia npm (cuando se publique)
 
 ```bash
-npm install flowy-ui-kit
+npm install escapemaster-ui-kit
 ```
 
 ### Usar componentes de forma local
@@ -24,8 +24,8 @@ npm install flowy-ui-kit
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/diegogzt/flowy-ui-kit.git
-cd flowy-ui-kit
+git clone https://github.com/diegogzt/escapemaster-ui-kit.git
+cd escapemaster-ui-kit
 ```
 
 2. Instala dependencias:
@@ -87,7 +87,7 @@ npm run build
 ### Importar componentes individuales
 
 ```tsx
-import { Button, Card, Input } from "flowy-ui-kit";
+import { Button, Card, Input } from "escapemaster-ui-kit";
 
 function App() {
   return (
@@ -107,7 +107,7 @@ function App() {
 #### Button
 
 ```tsx
-import { Button } from 'flowy-ui-kit';
+import { Button } from 'escapemaster-ui-kit';
 
 <Button variant="primary" size="lg">
   Guardar
@@ -121,7 +121,7 @@ import { Button } from 'flowy-ui-kit';
 #### Input
 
 ```tsx
-import { Input } from "flowy-ui-kit";
+import { Input } from "escapemaster-ui-kit";
 
 <Input
   type="email"
@@ -133,7 +133,7 @@ import { Input } from "flowy-ui-kit";
 #### Card
 
 ```tsx
-import { Card, CardHeader, CardTitle, CardFooter } from "flowy-ui-kit";
+import { Card, CardHeader, CardTitle, CardFooter } from "escapemaster-ui-kit";
 
 <Card>
   <CardHeader>
@@ -149,7 +149,7 @@ import { Card, CardHeader, CardTitle, CardFooter } from "flowy-ui-kit";
 #### Calendar
 
 ```tsx
-import { Calendar } from "flowy-ui-kit";
+import { Calendar } from "escapemaster-ui-kit";
 import { useState } from "react";
 
 function App() {
@@ -170,7 +170,7 @@ function App() {
 #### Alert
 
 ```tsx
-import { Alert } from 'flowy-ui-kit';
+import { Alert } from 'escapemaster-ui-kit';
 
 <Alert variant="success" title="¡Éxito!">
   Tu cambio ha sido guardado correctamente.
@@ -227,7 +227,7 @@ Las contribuciones son bienvenidas. Por favor abre un issue o pull request para 
 
 ---
 
-**¿Necesitas ayuda?** Abre un issue en [GitHub](https://github.com/diegogzt/flowy-ui-kit/issues)
+**¿Necesitas ayuda?** Abre un issue en [GitHub](https://github.com/diegogzt/escapemaster-ui-kit/issues)
 
 - **Select** - Dropdown selector
 - **Checkbox** - Checkbox reutilizable

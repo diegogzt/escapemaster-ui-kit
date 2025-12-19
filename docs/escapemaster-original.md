@@ -1,4 +1,4 @@
-# 🌊 Flowy Original
+# 🌊 Escapemaster Original
 
 Paleta principal del sistema de diseño con tonos naranjas vibrantes y cálidos.
 
@@ -30,7 +30,7 @@ Paleta principal del sistema de diseño con tonos naranjas vibrantes y cálidos.
     <span style="display: inline-block; padding: 4px 12px; background-color: #E46F20; color: #ffffff; font-size: 14px; font-weight: 600; border-radius: 20px;">Original</span>
   </div>
   <h3 style="font-size: 20px; font-weight: 700; color: #582B11; margin-bottom: 8px;">Título Tarjeta</h3>
-  <p style="font-size: 14px; color: #666666; line-height: 1.6;">Descripción de la tarjeta con estilo Flowy Original.</p>
+  <p style="font-size: 14px; color: #666666; line-height: 1.6;">Descripción de la tarjeta con estilo Escapemaster Original.</p>
 </div>
 ```
 
@@ -44,7 +44,7 @@ Paleta principal del sistema de diseño con tonos naranjas vibrantes y cálidos.
     <span style="font-size: 20px;">⚠️</span>
     <span style="font-weight: 600; color: #582B11;">Advertencia</span>
   </div>
-  <p style="margin-top: 8px; color: #582B11; font-size: 14px;">Mensaje de advertencia con colores Flowy Original.</p>
+  <p style="margin-top: 8px; color: #582B11; font-size: 14px;">Mensaje de advertencia con colores Escapemaster Original.</p>
 </div>
 ```
 

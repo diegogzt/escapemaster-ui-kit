@@ -1,16 +1,16 @@
 {
-  "name": "flowy-ui-kit",
+  "name": "escapemaster-ui-kit",
   "version": "1.0.0",
   "description": "Un completo sistema de componentes UI construido con React, TypeScript y Tailwind CSS",
   "type": "module",
   "main": "src/components/index.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegogzt/flowy-ui-kit.git"
+    "url": "https://github.com/diegogzt/escapemaster-ui-kit.git"
   },
-  "homepage": "https://diegogzt.github.io/flowy-ui-kit/",
+  "homepage": "https://diegogzt.github.io/escapemaster-ui-kit/",
   "bugs": {
-    "url": "https://github.com/diegogzt/flowy-ui-kit/issues"
+    "url": "https://github.com/diegogzt/escapemaster-ui-kit/issues"
   },
   "scripts": {
     "dev": "vite",

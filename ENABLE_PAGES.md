@@ -8,7 +8,7 @@ GitHub Pages no está habilitado en tu repositorio. Necesita ser activado desde 
 
 ### 1. Ir a Settings del repositorio
 
-1. Ve a: `https://github.com/diegogzt/flowy-ui-kit/settings`
+1. Ve a: `https://github.com/diegogzt/escapemaster-ui-kit/settings`
 2. O desde GitHub: Repositorio → **Settings** (pestaña superior)
 
 ### 2. Encontrar "Pages" en el menú izquierdo
@@ -30,7 +30,7 @@ En la sección "Build and deployment":
 GitHub Pages debería mostrar:
 
 ```
-Your site is ready to be published at https://diegogzt.github.io/flowy-ui-kit/
+Your site is ready to be published at https://diegogzt.github.io/escapemaster-ui-kit/
 ```
 
 ## ✅ Próximos pasos
@@ -40,7 +40,7 @@ Your site is ready to be published at https://diegogzt.github.io/flowy-ui-kit/
 3. El workflow debería ejecutarse automáticamente
 4. Una vez que termine (✅ verde), accede a:
    ```
-   https://diegogzt.github.io/flowy-ui-kit/
+   https://diegogzt.github.io/escapemaster-ui-kit/
    ```
 
 ## 🔑 Alternativa: Usar token de GitHub (si tienes problemas)
@@ -50,7 +50,7 @@ Si los pasos anteriores no funcionan, puedes usar la API de GitHub:
 ```bash
 # Requiere un GitHub Personal Access Token (PAT) con permisos 'repo'
 GITHUB_TOKEN="tu_token_aqui"
-REPO="diegogzt/flowy-ui-kit"
+REPO="diegogzt/escapemaster-ui-kit"
 
 curl -X POST \
   -H "Authorization: token $GITHUB_TOKEN" \

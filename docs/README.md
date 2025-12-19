@@ -1,10 +1,10 @@
-# 🎨 Flowy UI Kit - Documentación de Paletas
+# 🎨 Escapemaster UI Kit - Documentación de Paletas
 
 Sistema de diseño completo con 17 paletas de colores profesionales.
 
 ## 📚 Índice de Paletas
 
-1. [🌊 Flowy Original](./flowy-original.md) - Paleta principal naranja vibrante
+1. [🌊 Escapemaster Original](./escapemaster-original.md) - Paleta principal naranja vibrante
 2. [🌸 Warm Pastel](./warm-pastel.md) - Tonos cálidos pastel
 3. [❄️ Cool Pastel](./cool-pastel.md) - Tonos fríos pastel
 4. [🎯 Contrast](./contrast.md) - Alta legibilidad y contraste
@@ -21,6 +21,7 @@ Sistema de diseño completo con 17 paletas de colores profesionales.
 15. [⚡ Purple Storm](./purple-storm.md) - Morado tormentoso
 16. [🍃 Meadow](./meadow.md) - Verde pradera vibrante
 17. [🌌 Twilight](./twilight.md) - Índigo crepuscular
+18. [🏞️ Vista](./vista.md) - Tonos naturales y terrosos
 
 ## 🚀 Uso
 
@@ -49,5 +50,5 @@ npm run dev
 
 ## 🔗 Enlaces
 
-- [Demo en vivo](https://diegogzt.github.io/flowy-ui-kit/)
-- [Repositorio](https://github.com/diegogzt/flowy-ui-kit)
+- [Demo en vivo](https://diegogzt.github.io/escapemaster-ui-kit/)
+- [Repositorio](https://github.com/diegogzt/escapemaster-ui-kit)
